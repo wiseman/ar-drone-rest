@@ -1,8 +1,8 @@
 ar-drone-rest
 =============
 
-ar-drone-rest is a node.js REST server for controlling the AR.Drone
-2.0.  It is not well tested.
+ar-drone-rest is a node.js REST (not really) server for controlling
+the AR.Drone 2.0.  It is not well tested.
 
 Uses https://github.com/felixge/node-ar-drone to talk to the drone.
 
