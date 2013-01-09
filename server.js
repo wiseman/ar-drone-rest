@@ -1,8 +1,10 @@
-var arDrone = require('../node-ar-drone');
+var arDrone = require('ar-drone');
 var restify = require('restify');
 
 var drone = null;
-var server = restify.createServer();
+var server = restify.createServer({
+  'name': 'ar-drone-rest'
+});
 
 function start() {
   drone = arDrone.createClient();
