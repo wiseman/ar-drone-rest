@@ -51,7 +51,7 @@ $ curl 'http://localhost:8080/v1/front/0.1
 Move backward at maximum speed:
 
 ```
-$ curl 'http://localhost:8080/v1/front/1.0
+$ curl 'http://localhost:8080/v1/back/1.0
 ```
 
 Ascend slowly:
