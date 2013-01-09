@@ -1,0 +1,16 @@
+{
+  "author": "John Wiseman <jjwiseman@gmail.com>",
+  "name": "ar-drone-rest",
+  "description": "A node.js REST server for controlling Parrot Ar.Drone 2.0 vehicles.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wiseman/ar-drone-rest",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wiseman/ar-drone-rest.git"
+  },
+  "main": "./index",
+  "dependencies": {
+    "ar-drone": "0.0.5",
+    "restify": "2.0.4"
+  }
+}
