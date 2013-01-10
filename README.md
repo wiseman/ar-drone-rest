@@ -94,6 +94,6 @@ $ curl 'http://localhost:8080/v1/disableEmergency'
 Stop the vehicle after it has traveled forward 1 meter:
 
 ```
-$ curl 'http://127.0.0.1/stopAfter/1000'
-$ curl 'http://127.0.0.1/front/0.1'
+$ curl 'http://127.0.0.1/v1/stopAfter/1000'
+$ curl 'http://127.0.0.1/v1/front/0.1'
 ```
