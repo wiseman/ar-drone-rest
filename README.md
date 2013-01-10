@@ -33,60 +33,60 @@ See `lib/server.js` for details, but here are a few basic methods:
 Take off:
 
 ```
-$ curl 'http://localhost:8080/v1/takeoff
+$ curl 'http://localhost:8080/v1/takeoff'
 ```
 
 Land:
 
 ```
-$ curl 'http://localhost:8080/v1/land
+$ curl 'http://localhost:8080/v1/land'
 ```
 
 Move forward slowly:
 
 ```
-$ curl 'http://localhost:8080/v1/front/0.1
+$ curl 'http://localhost:8080/v1/front/0.1'
 ```
 
 Move backward at maximum speed:
 
 ```
-$ curl 'http://localhost:8080/v1/back/1.0
+$ curl 'http://localhost:8080/v1/back/1.0'
 ```
 
 Ascend slowly:
 
 ```
-$ curl 'http://localhost:8080/v1/up/0.1
+$ curl 'http://localhost:8080/v1/up/0.1'
 ```
 
 Descend slowly:
 
 ```
-$ curl 'http://localhost:8080/v1/down/0.1
+$ curl 'http://localhost:8080/v1/down/0.1'
 ```
 
 Spin clockwise:
 
 ```
-$ curl 'http://localhost:8080/v1/clockwise/0.1
+$ curl 'http://localhost:8080/v1/clockwise/0.1'
 ```
 
 Spin counter-clockwise:
 
 ```
-$ curl 'http://localhost:8080/v1/counterclockwise/0.1
+$ curl 'http://localhost:8080/v1/counterclockwise/0.1'
 ```
 
 Stop all movement:
 
 ```
-$ curl 'http://localhost:8080/v1/stop
+$ curl 'http://localhost:8080/v1/stop'
 ```
 
 Clear the emergency bit (for example the drone crashed, went to
 safe-mode and the LEDs are showing red):
 
 ```
-$ curl 'http://localhost:8080/v1/disableEmergency
+$ curl 'http://localhost:8080/v1/disableEmergency'
 ```
