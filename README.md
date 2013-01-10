@@ -91,7 +91,7 @@ safe-mode and the LEDs are showing red):
 $ curl 'http://localhost:8080/v1/disableEmergency'
 ```
 
-Stop the vehicle after it has traveled forward 1 meter:
+Tell the vehicle to move forward slowly and stop when it has traveled 1 meter:
 
 ```
 $ curl 'http://127.0.0.1/v1/stopAfter/1000'
